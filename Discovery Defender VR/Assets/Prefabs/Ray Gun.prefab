@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3167866970085220831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 177766673598951325, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0a89667c07d58da4aa10f306f8e7aac2, type: 2}
+    - target: {fileID: 2197355227596051251, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: fireParticles
+      value: 
+      objectReference: {fileID: 797242368241678817}
+    - target: {fileID: 3404884056709107228, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_Name
+      value: Ray Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1634493
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.7912095
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.5760403
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414431867426991633, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+--- !u!198 &797242368241678817 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2370821449602619454, guid: 62d79b30ace5cfb4f9d831ac3d360041, type: 3}
+  m_PrefabInstance: {fileID: 3167866970085220831}
+  m_PrefabAsset: {fileID: 0}
