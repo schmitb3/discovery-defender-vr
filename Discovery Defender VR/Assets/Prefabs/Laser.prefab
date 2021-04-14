@@ -143,6 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 100
+  sparkPrefab: {fileID: 284423767363030440, guid: 0a4a75f15bb044045a6911f1b663873d, type: 3}
 --- !u!54 &-8039604824199126101
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class BulletScript : MonoBehaviour
 {
     // ================================= Variables
     public float bulletSpeed = 10.0f;
+    public GameObject sparkPrefab;
 
     // ================================= Methods
     void Update()
@@ -20,6 +21,10 @@ public class BulletScript : MonoBehaviour
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(transform.position, transform.forward, out hit, forwardVector.magnitude))
         {
+            // Instantiate a spark
+            GameObject spark = Instantiate(sparkPrefab, transform.position, transform.rotation);
+            spark.GetComponent<ParticleSystem>().Play();
+            Destroy(spark, 1);
             Destroy(gameObject);
         }
 
